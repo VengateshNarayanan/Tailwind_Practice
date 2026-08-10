@@ -5,43 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>spider man web</title>
 </head>
-<body>
-<nav class="flex text-right flex-row justify-center items-center gap-5 list-none bg-purple-200 p-5" >
-        <li class="text-left justify-normal ">SPIDER</li>
-
-    <li class="flex justify-center items-center">Dashboard</li>
-    <li class="flex justify-center items-center">Missions</li>
-    <li class="flex justify-center items-center">Team</li>
-    <li class="flex justify-center items-center">Profile</li>
-
+<body class="bg-slate-900 text-white">
+        <script type="module" src="/src/main.js"></script>
+  <div class="flex items-center gap-3">
+    <img src="https://crystalpng.com/wp-content/uploads/2025/03/marvel-logo.png" class="w-10 h-10 rounded-full">
+    <h1 class="text-2xl font-bold text-red-50">SPIDER</h1>
+</div>
+<nav class="bg-slate-900">
+    <ul class="flex justify-center items-center gap-8 text-white ">
+    <li class="hover:bg-blue-700 rounded-lg px-6 py-3 hover: cursor-pointer">Dashboard</li>
+    <li class="hover:bg-blue-700 rounded-lg px-6 py-3 cursor-pointer">Missions</li>
+    <li class="hover:bg-blue-700 rounded-lg px-6 py-3 cursor-pointer">Team</li>
+    <li class="hover:bg-blue-700 rounded-lg px-6 py-3 cursor-pointer">Profile</li>
+    </ul>
+  
 </nav>
+<section class="m-h-[80vh] flex items-center px-8 bg-slate-950">
+  <div class="max-w-7xl mx-auto w-full flex items-center justify-between">
+  </div>
+</section>
+
+<h1 class="text-6xl font-bold text-white">
+    YOUR FRIENDLY
+    <span class="text-red-600">NEIGHBORHOOD</span>
+    SPIDER-MAN
+</h1>
+<p class="mt-6 text-lg text-slate-400 max-w-xl">
+    Protect the city, complete missions and work together with your team.
+</p>
+<div class="flex gap-4 mt-8">
+
+    <button class="bg-white hover:bg-red-700 px-6 py-3 rounded-lg font-semibold cursor-pointer text-black">
+       <a href="mission.html">View Missions</a>
+    </button>
+
+    <button class="bg-white font-semibold hover:bg-red-700 px-6 py-3 rounded-lg cursor-pointer text-black ">
+        <a href="team.html">Meet The Team</a>
+    </button>
+
+    <button class="bg-white font-semibold  hover:bg-red-700 rounded-lg px-6 py-3 cursor-pointer text-black ">Pending Missions</button>
+
+
+</div>
+
+<img src="https://images.immediate.co.uk/production/volatile/sites/3/2017/06/142032.793e80d3-3e80-48de-b26e-c2a26c3e42fe.jpg?quality=90&resize=980,654" class="w-[450px] h-[300px]  rouded-lg px-9 py-9 hover: cursor-text ">
+</img>
+
+<section class="px-6 py-8">
+
+    <h2 class="text-2xl font-bold text-white mb-6">
+        Mission Statistics
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <!-- Completed -->
+        <div class="bg-slate-900 border border-emerald-500/30 rounded-xl p-6">
+            <p class="text-emerald-400 font-semibold">
+                ✓ COMPLETED
+            </p>
+
+            <h3 class="text-4xl font-bold text-white mt-4">
+                24
+            </h3>
+        </div>
+
+        <!-- Failed -->
+        <div class="bg-slate-900 border border-red-500/30 rounded-xl p-6">
+            <p class="text-red-400 font-semibold">
+                ✕ FAILED
+            </p>
+
+            <h3 class="text-4xl font-bold text-white mt-4">
+                3
+            </h3>
+        </div>
+
+        <!-- Active -->
+        <div class="bg-slate-900 border border-blue-500/30 rounded-xl p-6">
+            <p class="text-blue-400 font-semibold">
+                ⚡ ACTIVE
+            </p>
+
+            <h3 class="text-4xl font-bold text-white mt-4">
+                7
+            </h3>
+        </div>
+
+    </div>
+
+</section>
+
 </body>
 </html>
 
-┌─────────────────────────────────────────────┐
-│ SPIDER       Dashboard   Missions   Profile │
-├─────────────────────────────────────────────┤
-│                                             │
-│     Welcome back, Spider! 🕷️               │
-│     Your city needs you.                    │
-│                                             │
-│     [ Start Mission ]                       │
-│                                             │
-├─────────────────────────────────────────────┤
-│                                             │
-│  Active Missions                            │
-│                                             │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐    │
-│  │ Robbery  │ │ Rescue   │ │ Patrol   │    │
-│  │          │ │          │ │          │    │
-│  │ HIGH     │ │ MEDIUM   │ │ LOW      │    │
-│  │ [View]   │ │ [View]   │ │ [View]   │    │
-│  └──────────┘ └──────────┘ └──────────┘    │
-│                                             │
-├─────────────────────────────────────────────┤
-│                                             │
-│ Mission Statistics                          │
-│                                             │
-│ Completed: 24     Active: 3     Failed: 1  │
-│                                             │
-└─────────────────────────────────────────────┘
+
